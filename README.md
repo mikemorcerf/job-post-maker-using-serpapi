@@ -44,7 +44,7 @@ board_relevance = [
 - `fun_bullet_point`: `Optional parameter` The string provided in this parameter will be used as a bullet point when generating the job list. It's recommended to use an emoji to make the list look more appealing, fun and engaging. If this parameter is not provided, then the list will use the default 🟢 as a bullet point.
 
 
-## Requirement
+## ✅ Requirement
 
 In order to use this script, you must [create a SerpApi account](https://serpapi.com/users/sign_up?plan=free) in order to get your [SerpApi Private API Key](https://serpapi.com/dashboard). The free tier grants you 100 free searches per month.<br>
 After you created your account, you must create a file named `.env` in the main directory (same directory where `job_post_maker.rb` file is).<br>
