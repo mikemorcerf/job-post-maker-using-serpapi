@@ -5,7 +5,7 @@
 This project has a script file `job_post_maker.rb` that sets some parameters that are used to generate a list of jobs in the `GENERATED_JOB_LIST.txt` file:
 
 - `job_title`: `Required parameter` The query used to find jobs using [SerpApi](https://github.com/serpapi/google-search-results-ruby)'s [Google Jobs API](https://serpapi.com/google-jobs-api).
-Value Examples:
+\nValue Examples:
 ```
 job_title = 'Ruby on Rails'
 job_title = 'Game developer'
@@ -19,7 +19,7 @@ job_title = 'Lead software engineer contract'
 - `remote`: `Optional parameter` Only fetches remote jobs when set to `true`, and only fetches on-premise jobs when set to `false`. If not included, the script will fetch both remote and on-premise jobs.
 
 - `language_code`: `Optional parameter` Two-letter language code parameter that defines the language to use for the Google Jobs search. See a list of [Supported Laguages](https://serpapi.com/google-languages). If this parameter is not provided, then the default language code for English will be used.
-Value Examples:
+\nValue Examples:
 ```
 language_code = 'en' # for English
 language_code = 'es' # for Spanish
@@ -27,10 +27,10 @@ language_code = 'pt-br' # for Portuguese
 ```
 
 - `number_of_jobs`: `Optional parameter` Number of unique jobs to fetch for the job list. If not used, it will default to returning the jobs listed on the first page of job results. If the number provided is greater than the number of unique jobs available for your specific parameters, then the script will only return the number of jobs it can find.
-`Attention:` The greater the number of jobs requested the more requests will be necessary to make the list. Usually, Google returns 10 jobs per request, but sometimes it returns less. Also, duplicate jobs are not added to the list. It's important to keep this in mind because [SerpApi](https://serpapi.com/pricing)'s Free tier offers 100 requests per month, so you may want to adjust this parameter based on how many times you'd like to create a job list per month, or you can consider upgrading your [SerpApi](https://serpapi.com/pricing) account to a paid tier.
+\n`Attention:` The greater the number of jobs requested the more requests will be necessary to make the list. Usually, Google returns 10 jobs per request, but sometimes it returns less. Also, duplicate jobs are not added to the list. It's important to keep this in mind because [SerpApi](https://serpapi.com/pricing)'s Free tier offers 100 requests per month, so you may want to adjust this parameter based on how many times you'd like to create a job list per month, or you can consider upgrading your [SerpApi](https://serpapi.com/pricing) account to a paid tier.
 
 - `board_relevance`: `Optional parameter` Array where you list your favorite job boards. Each job has options for links where to apply for that opportunity. If any of the available options are listed in this Array, then the link to apply for the job will be for the job board listed in the Array depending on the order listed. The first job boards listed have higher relevance. Also, every time you run the script, a list of all job boards associated with the jobs on the list will be printed on the terminal to make it easier to find job boards available and to make it easier to copy the names of job boards you like most.
-Value Example:
+\nValue Example:
 ```
 board_relevance = [
   'LinkedIn',
@@ -47,9 +47,9 @@ board_relevance = [
 ## Requirement
 
 In order to use this script, you must [create a SerpApi account](https://serpapi.com/users/sign_up?plan=free) in order to get your [SerpApi Private API Key](https://serpapi.com/dashboard). The free tier grants you 100 free searches per month.
-After you created your account, you must create a file named `.env` in the main directory (same directory where `job_post_maker.rb` file is).
-Then you must paste your [SerpApi Private API Key](https://serpapi.com/dashboard) in that file, using the content of the file `.env_sample` as reference.
-Content Example:
+\nAfter you created your account, you must create a file named `.env` in the main directory (same directory where `job_post_maker.rb` file is).
+\nThen you must paste your [SerpApi Private API Key](https://serpapi.com/dashboard) in that file, using the content of the file `.env_sample` as reference.
+\nContent Example:
 ```
 SERPAPI_API_KEY=your_SerpApi_private_API_key
 ```
@@ -76,9 +76,9 @@ ruby job_post_maker.rb
 ```
 
 
-## Output Sample
+## 🙌 Output Sample
 (Jobs scrapped September/25/2024 using the parameters pre-filled in the script)
-List generated in `./GENERATED_JOB_LIST.txt`:
+\nList generated in `./GENERATED_JOB_LIST.txt`:
 ```
 🦖 Backend/Full Stack developer – Ruby on Rails at @Cisco Meraki: https://rubyonremote.com/jobs/62925-backend-full-stack-developer-ruby-on-rails-at-cisco-meraki?
 🦖 Full Stack Developer (Ruby Rails + ReactJS) at @Storylane: https://www.workatastartup.com/jobs/55767?
