@@ -7,10 +7,10 @@ require_relative './setup'
 
 # Job you would like to search for.
 # Examples:
-# "Game developer"
-# "React developer full time"
-# "developer internship"
-# "Lead software engineer contract"
+# 'Game developer'
+# 'React developer full time'
+# 'developer internship'
+# 'Lead software engineer contract'
 #
 # Parameter Required
 job_title = 'Ruby on Rails'
@@ -25,8 +25,8 @@ job_title = 'Ruby on Rails'
 # Documentation link: https://www.serpapi.com/google-jobs-api
 # Link to download a list of Supported Locations: https://serpapi.com/locations.json
 # Examples:
-# "Sao Paulo,State of Sao Paulo,Brazil"
-# "Mumbai,Maharashtra,India"
+# 'Sao Paulo,State of Sao Paulo,Brazil'
+# 'Mumbai,Maharashtra,India'
 #
 # Parameter Optional
 location = 'New York,New York,United States'
@@ -43,9 +43,9 @@ remote = true
 # Parameter defines the language to use for the Google Jobs search.
 # It's a two-letter language code.
 # Examples:
-# "en" for English
-# "es" for Spanish
-# "pt-br" for Portuguese
+# 'en' for English
+# 'es' for Spanish
+# 'pt-br' for Portuguese
 #
 # Link to list of Supported Laguages: https://serpapi.com/google-languages
 language_code = 'en'

@@ -15,6 +15,12 @@ job_title = 'Lead software engineer contract'
 ```
 
 - `location`: `Optional parameter` Defines from where you want the search to originate. If several locations match the location requested, the most popular one will picked. [Download](https://serpapi.com/locations.json) a list of all supported locations.
+Value Examples:
+```
+location = 'Sao Paulo,State of Sao Paulo,Brazil'
+location = 'Mumbai,Maharashtra,India'
+location = 'New York,New York,United States'
+```
 
 - `remote`: `Optional parameter` Only fetches remote jobs when set to `true`, and only fetches on-premise jobs when set to `false`. If not included, the script will fetch both remote and on-premise jobs.
 
