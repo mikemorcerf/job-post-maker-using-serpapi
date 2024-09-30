@@ -56,7 +56,7 @@ language_code = 'en'
 # the greater the number, the greater will be the number
 # of requests to retrieve them.
 # Usually you can get 10 results per request.
-number_of_jobs = 30
+number_of_jobs = 15
 
 
 # If you have preferences for which job boards you'd like the links for the jobs to be from,
