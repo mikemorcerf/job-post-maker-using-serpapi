@@ -24,6 +24,9 @@ job_title = 'Ruby on Rails'
 # If location is omitted, the search may take on the location of the proxy.
 # Documentation link: https://www.serpapi.com/google-jobs-api
 # Link to download a list of Supported Locations: https://serpapi.com/locations.json
+# Examples:
+# "Sao Paulo,State of Sao Paulo,Brazil"
+# "Mumbai,Maharashtra,India"
 #
 # Parameter Optional
 location = 'New York,New York,United States'
