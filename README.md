@@ -14,7 +14,7 @@ job_title = 'developer internship'
 job_title = 'Lead software engineer contract'
 ```
 
-- `location`: `Optional parameter` Defines from where you want the search to originate. If several locations match the location requested, the most popular one will picked. [Download](https://serpapi.com/locations.json) a list of all supported locations.
+- `location`: `Optional parameter` Defines from where you want the search to originate. If several locations match the location requested, the most popular one will picked. [Download](https://serpapi.com/locations.json) a list of all supported locations.<br>
 Value Examples:
 ```
 location = 'Sao Paulo,State of Sao Paulo,Brazil'
