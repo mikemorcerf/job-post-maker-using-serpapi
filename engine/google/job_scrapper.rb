@@ -91,16 +91,16 @@ module Engine
 
       def request_params(next_page_token: nil)
         params = {
-          engine: 'google_jobs',
-          q: @q,
-          hl: @hl,
-          no_cache: true,
-          api_key: ENV['SERPAPI_API_KEY']
+          engine: 'google_jobs',          # specify which engine you want to scrape using SerpApi
+          q: @q,                          # query you're requestig from the search engine
+          hl: @hl,                        # language code for the language you want the results to be
+          no_cache: true,                 # specify whether you want cached responses from SerpApi
+          api_key: ENV['SERPAPI_API_KEY'] # SerpApi Secret API Key you need to use SerpApi
         }
 
         params.merge!(next_page_token: next_page_token) if next_page_token
         params.merge!(location: @location) if @location
-        params.merge!(ltype: @ltype) if @ltype
+        params.merge!(ltype: @ltype) if @ltype # specify whether you want jobs to be remote or not - you can omit this argument to get both remote and non-remote jobs in the response
         params
       end
 
