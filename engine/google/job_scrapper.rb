@@ -12,7 +12,7 @@ module Engine
         location: nil,
         remote: nil,
         language_code: 'en',
-        number_of_jobs: nil,
+        number_of_jobs: 15,
         fun_bullet_point: '🟢',
         board_relevance: []
       )
