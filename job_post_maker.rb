@@ -87,31 +87,3 @@ search_params.merge!(board_relevance: board_relevance) if defined?(board_relevan
 
 
 Engine::Google::JobScrapper.new(**search_params).generate_job_list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Engine::Google::JobScrapper.new(
-  job_title: job_title,
-  location: location,
-  remote: remote,
-  language_code: language_code,
-  number_of_jobs: number_of_jobs,
-  fun_bullet_point: fun_bullet_point,
-  board_relevance: board_relevance
-).generate_job_list
-
