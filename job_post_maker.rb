@@ -86,4 +86,4 @@ search_params.merge!(fun_bullet_point: fun_bullet_point) if defined?(fun_bullet_
 search_params.merge!(board_relevance: board_relevance) if defined?(board_relevance)
 
 
-Engine::Google::JobScrapper.new(**search_params).generate_job_list
+Engine::Google::JobScraper.new(**search_params).generate_job_list

@@ -1,6 +1,6 @@
 module Engine
   module Google
-    class JobScrapper
+    class JobScraper
       @job_list_file_path = File.expand_path('../../GENERATED_JOB_LIST.txt', __dir__)
 
       class << self
