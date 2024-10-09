@@ -82,6 +82,10 @@ ruby job_post_maker.rb
 ```
 
 
+## 📽️ Walkthrough Video
+[![Walkthrough video detailing creating job board posts using SerpApi step-by-step](https://img.youtube.com/vi/di1ufOGse0U/0.jpg)](https://youtu.be/di1ufOGse0U)
+
+
 ## 🙌 Output Sample
 (Jobs scraped September/25/2024 using the parameters pre-filled in the script)<br>
 List generated in `./GENERATED_JOB_LIST.txt`:
