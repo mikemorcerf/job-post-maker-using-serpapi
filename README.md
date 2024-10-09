@@ -1,5 +1,8 @@
 # Make Job Board posts using [SerpAPI](https://serpapi.com/)
 
+## 📝 [You can also follow along using the tutorial posted on SerpApi's Blog](https://serpapi.com/blog/scrape-google-jobs-to-easily-make-job-lists-using-serpapi/)
+
+
 ## 👋 Introduction
 
 This project has a script file `job_post_maker.rb` that sets some parameters that are used to generate a list of jobs in the `GENERATED_JOB_LIST.txt` file:
