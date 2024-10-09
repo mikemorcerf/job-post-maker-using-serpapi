@@ -73,7 +73,7 @@ module Engine
           end
 
           unless response.length == current_number_of_jobs
-            puts "Scrapping... #{response.length} unique jobs out of #{total_number_of_jobs} jobs scrapped."
+            puts "Scraping... #{response.length} unique jobs out of #{total_number_of_jobs} jobs scraped."
           end
 
           current_number_of_jobs = response.length

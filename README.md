@@ -83,7 +83,7 @@ ruby job_post_maker.rb
 
 
 ## 🙌 Output Sample
-(Jobs scrapped September/25/2024 using the parameters pre-filled in the script)<br>
+(Jobs scraped September/25/2024 using the parameters pre-filled in the script)<br>
 List generated in `./GENERATED_JOB_LIST.txt`:
 ```
 🦖 Backend/Full Stack developer – Ruby on Rails at @Cisco Meraki: https://rubyonremote.com/jobs/62925-backend-full-stack-developer-ruby-on-rails-at-cisco-meraki?
@@ -121,10 +121,10 @@ List generated in `./GENERATED_JOB_LIST.txt`:
 Output generated on the terminal:
 ```
 Starting to scrape jobs
-Scrapping... 9 unique jobs out of 10 jobs scrapped.
-Scrapping... 19 unique jobs out of 20 jobs scrapped.
-Scrapping... 28 unique jobs out of 29 jobs scrapped.
-Scrapping... 30 unique jobs out of 39 jobs scrapped.
+Scraping... 9 unique jobs out of 10 jobs scraped.
+Scraping... 19 unique jobs out of 20 jobs scraped.
+Scraping... 28 unique jobs out of 29 jobs scraped.
+Scraping... 30 unique jobs out of 39 jobs scraped.
 COMPLETED: 30 jobs added to the list.
 
 Job boards covered:
